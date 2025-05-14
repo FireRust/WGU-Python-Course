@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Taniti</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Navigation -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-xl font-bold">TANITI <span class="text-sm font-light">Your Personal Guide</span></div>
+      <nav class="space-x-6 text-sm font-medium">
+        <a href="highlights.html" class="hover:text-blue-600">Highlights</a>
+        <a href="hotels.html" class="hover:text-blue-600">Hotels</a>
+        <a href="plan.html" class="hover:text-blue-600">Plan Your Visit</a>
+        <a href="contact.html" class="hover:text-blue-600">Contact Us</a>
+        <a href="#" class="hover:text-blue-600">Search</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Quote -->
+  <section class="text-center py-12 px-6">
+    <p class="text-lg italic max-w-2xl mx-auto">
+      "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu."
+    </p>
+  </section>
+
+  <!-- Feature Buttons -->
+  <section class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 text-center px-4">
+    <a href="#" class="border py-4 px-4 bg-white hover:bg-blue-100 transition">Snorkel Tours</a>
+    <a href="#" class="border py-4 px-4 bg-white hover:bg-blue-100 transition">Rainforest Hikes</a>
+    <a href="#" class="border py-4 px-4 bg-white hover:bg-blue-100 transition">Local Cuisine</a>
+    <a href="#" class="border py-4 px-4 bg-white hover:bg-blue-100 transition">Cultural Show</a>
+    <a href="#" class="border py-4 px-4 bg-white hover:bg-blue-100 transition">Local Market Days</a>
+    <a href="#" class="border py-4 px-4 bg-white hover:bg-blue-100 transition">Adventure Tours</a>
+  </section>
+
+  <!-- Secondary Buttons -->
+  <section class="text-center mt-12 space-x-4">
+    <a href="#" class="border py-2 px-4 bg-white hover:bg-green-100 transition inline-block mt-2">New Festival Dates</a>
+    <a href="#" class="border py-2 px-4 bg-white hover:bg-green-100 transition inline-block mt-2">Airport Update</a>
+    <a href="#" class="border py-2 px-4 bg-white hover:bg-green-100 transition inline-block mt-2">Eco-Tourism Tips</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white mt-16 py-8 border-t">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-6 text-sm text-gray-600">
+      <div class="font-bold text-gray-800">Logo</div>
+      <div>Address<br>123 street<br>Taniti</div>
+      <div>555-555-5555</div>
+      <div><a href="#">Subscribe to Newsletter</a></div>
+      <div><a href="contact.html">Contact Us</a></div>
+    </div>
+    <div class="mt-6 text-center text-gray-500 text-xs">
+      <div class="flex justify-center space-x-4 mt-4">
+        <a href="#" aria-label="Instagram">📸</a>
+        <a href="#" aria-label="Facebook">📘</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+      </div>
+      <p class="mt-4">&copy; 2024 Taniti Travel Guide. All rights reserved. | <a href="#" class="underline">Privacy Policy</a> | <a href="#" class="underline">Terms of Service</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
